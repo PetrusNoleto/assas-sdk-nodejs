@@ -1,0 +1,28 @@
+{
+  "name": "assas-sdk-nodejs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrusNoleto/assas-sdk-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetrusNoleto/assas-sdk-nodejs/issues"
+  },
+  "homepage": "https://github.com/PetrusNoleto/assas-sdk-nodejs#readme",
+  "description": "Assas SDK for Node.js",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
